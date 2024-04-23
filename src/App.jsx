@@ -1,5 +1,6 @@
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
+import QRCodeGenerator from "./components/qr-code-generator";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 //import RandomColor from "./components/random-color";
@@ -22,5 +23,8 @@ export default function App() {
 
     {/* Tree View Component */}
     {/* <TreeView menus={menus} /> */}
+
+    {/* QR Code generator component */}
+    {/* <QRCodeGenerator/> */}
   </>)
 }
