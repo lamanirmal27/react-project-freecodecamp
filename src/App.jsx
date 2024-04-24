@@ -2,6 +2,7 @@ import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
+import ScrollIndicator from "./components/scroll-indicator";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 //import RandomColor from "./components/random-color";
@@ -31,6 +32,8 @@ export default function App() {
      {/* Light to dark mode and vice and versa */}
       {/* <LightDarkMode/> */}
 
+      {/* Scroll Indicator component */}
+      {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
       
   </>)
 }
