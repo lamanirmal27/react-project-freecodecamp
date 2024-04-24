@@ -1,4 +1,5 @@
 import ImageSlider from "./components/image-slider";
+import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import TreeView from "./components/tree-view";
@@ -25,6 +26,11 @@ export default function App() {
     {/* <TreeView menus={menus} /> */}
 
     {/* QR Code generator component */}
-    {/* <QRCodeGenerator/> */}
+     {/* <QRCodeGenerator/>  */}
+
+     {/* Light to dark mode and vice and versa */}
+      {/* <LightDarkMode/> */}
+
+      
   </>)
 }
