@@ -1,3 +1,4 @@
+import TabTest from "./components/custom-tabs/tab-test";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
@@ -34,6 +35,10 @@ export default function App() {
 
       {/* Scroll Indicator component */}
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+      
+      {/* custom tab index */}
+      {/* <TabTest/> */}
+
       
   </>)
 }
