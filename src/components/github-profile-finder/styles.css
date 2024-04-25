@@ -1,0 +1,42 @@
+.github-profile-container{
+    margin: 0 auto;
+    border: 1px solid #000;
+    width: 90%;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.github-profile-container .input-wrapper {
+    text-align: center;
+    margin-top:  0;
+}
+
+.github-profile-container .input-wrapper input {
+    padding: 8px 20px;
+}
+
+.github-profile-container .input-wrapper button {
+    padding: 12px 28px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(140, 58%, 42%);
+    color: white;
+    font-size: medium;
+}
+
+.content-data {
+    border: 1px solid rgb(28, 16, 16);
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.whole-container .photo-class img {
+    margin-top: 60px;
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
