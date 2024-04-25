@@ -1,5 +1,5 @@
 import Tabs from "./tabs";
-
+//  this is a parent-component 
 function RandomComponent() {
     return <div>Some Random content</div>
 }

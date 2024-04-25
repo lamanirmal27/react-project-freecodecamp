@@ -6,7 +6,7 @@ export default function Tabs({ tabsContent, onChange }) {
 
   function handleClick(getIndex) {
     setCurrentTabIndex(getIndex);
-    onChange(getIndex);
+    //onChange(getIndex);
   }
 
   return (
