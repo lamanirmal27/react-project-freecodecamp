@@ -6,6 +6,7 @@ import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import ScrollIndicator from "./components/scroll-indicator";
+import SearchAutoComplete from "./components/search-autocomplete-with-api";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 //import RandomColor from "./components/random-color";
@@ -45,6 +46,9 @@ export default function App() {
       {/* <ModalTest/> */}
 
       {/* Github profile finder */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+
+      {/* Search Autocomplete user's list */}
+      {/* <SearchAutoComplete/> */}
   </>)
 }

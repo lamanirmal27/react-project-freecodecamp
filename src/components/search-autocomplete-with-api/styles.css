@@ -1,0 +1,20 @@
+.input-container {
+    text-align: center;
+}
+
+.input-container input {
+    padding: 8px 40px;
+}
+
+ul {
+    display: block;
+    border: 2px solid black;
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: large;
+}
+
+ul li:hover {
+    background-color: hsla(206, 16%, 72%, 0.873);
+}
