@@ -7,10 +7,13 @@ import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import ScrollIndicator from "./components/scroll-indicator";
 import SearchAutoComplete from "./components/search-autocomplete-with-api";
+import TicTacToe from "./components/tic-tac-tow";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
-//import RandomColor from "./components/random-color";
-//import StarRating from "./components/star-rating";
+import RandomColor from "./components/random-color";
+import StarRating from "./components/star-rating";
+import FeatureFlagGlobalState from "./components/feature-flag/context";
+import FeatureFlags from "./components/feature-flag";
 
 
 export default function App() {
@@ -50,5 +53,15 @@ export default function App() {
 
       {/* Search Autocomplete user's list */}
       {/* <SearchAutoComplete/> */}
+
+      {/* Tic tac toe game */}
+      {/* <TicTacToe/> */}
+
+      {/* Feature Flag Implementation */}
+
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags/>
+      </FeatureFlagGlobalState> */}
+      
   </>)
 }
