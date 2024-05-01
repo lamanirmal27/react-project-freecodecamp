@@ -14,6 +14,7 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
 import FeatureFlags from "./components/feature-flag";
+import UseFetchHookTest from "./components/use-fetch/test";
 
 
 export default function App() {
@@ -63,5 +64,7 @@ export default function App() {
         <FeatureFlags/>
       </FeatureFlagGlobalState> */}
       
+      {/* Use fetch custom hook */}
+      {/* <UseFetchHookTest/> */}
   </>)
 }
