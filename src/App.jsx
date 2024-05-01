@@ -15,6 +15,8 @@ import StarRating from "./components/star-rating";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
 import FeatureFlags from "./components/feature-flag";
 import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
 
 
 export default function App() {
@@ -66,5 +68,11 @@ export default function App() {
       
       {/* Use fetch custom hook */}
       {/* <UseFetchHookTest/> */}
+
+      {/* Use Onclick outside hook */}
+      {/* <UseOnclickOutsideTest/> */}
+
+      {/* window resize custom hook */}
+      {/* <UseWindowResizeTest/> */}
   </>)
 }
